@@ -1,0 +1,7 @@
+
+Error: creating Glue Connection (de-c3w2a1-rds-connection): operation error Glue: CreateConnection, https response error StatusCode: 400, RequestID: 83948fe2-9232-4105-a417-c15d560a6dcd, AlreadyExistsException: Connection already exists.
+
+  with module.landing_etl.aws_glue_connection.rds_connection,
+  on modules/landing_etl/glue.tf line 1, in resource "aws_glue_connection" "rds_connection":
+   1: resource "aws_glue_connection" "rds_connection" {
+
